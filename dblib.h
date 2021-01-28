@@ -13,12 +13,12 @@ typedef struct bancoDeDados {
 void listarBancos();
 void exibirTabela(table *tabela);
 void listarTabelas(database *banco);
-void pesquisarNaTabela(table *tabela);
+//void pesquisarNaTabela(table *tabela); Função ainda não implementada
 int criarBanco(database *banco);
-int autenticar(database *banco);
-int deletarTabela(table *tabela);
+int autenticar(database *banco);  //Função ainda não implementada
+int deletarTabela(table *tabela); //Função ainda não implementada
 int deletarBanco(database *banco);
 int inserirLinha(line *tupla, table *tabela);
-int deletarLinha(line *tupla, table *tabela);
+int deletarLinha(line *tupla, table *tabela); //Função ainda não implementada
 int criarTabela(table *tabela, database *banco);
 int verificarTabela(table *tabela, database *banco);
