@@ -7,7 +7,7 @@ void menuTabelas();
 void menuBancos();
 
 int main () {
-	void menuBancos();
+	menuBancos();
 	return 0;
 }
 
