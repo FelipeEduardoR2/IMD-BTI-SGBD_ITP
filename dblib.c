@@ -78,9 +78,10 @@ void listarTabelas(database *banco) {
 	free(tabelaImprimir.attributes);
 }
 
+/* Função ainda não implementada
 void pesquisarNaTabela(table *tabela) {
 
-}
+}*/
 
 int criarBanco(database *banco) {
 	int i;
@@ -102,10 +103,12 @@ int criarBanco(database *banco) {
 }
 
 int autenticar(database *banco) {
+	// Função ainda não implementada
 	return 1;
 }
 
 int deletarTabela(table *tabela) {
+	// Função ainda não implementada
 	return 0;
 }
 
@@ -174,6 +177,7 @@ int inserirLinha(line *tupla, table *tabela) {
 }
 
 int deletarLinha(line *tupla, table *tabela) {
+	// Função ainda não implementada
 	return 0;
 }
 
